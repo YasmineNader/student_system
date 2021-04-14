@@ -19,7 +19,7 @@
     
     <div class="container">
         <h2>Student form</h2>
-        <form action="{{ url('login') }}" method="post" enctype="multipart/form-data">
+        <form action="{{url('login')}}" method="post" enctype="multipart/form-data">
 
             @csrf
             

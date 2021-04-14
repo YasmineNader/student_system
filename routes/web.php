@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::resource('Student',"studentController")->middleware('auth');
+Route::resource('Student',"studentController")->middleware('auth:students');
 
 
 Route::get('Loginform','studentController@loginForm')->name('Loginform');
